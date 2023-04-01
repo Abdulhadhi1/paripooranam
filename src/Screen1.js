@@ -13,7 +13,7 @@ const Screen1 = () => {
     global: { value: null, matchMode: FilterMatchMode.CONTAINS },
   });
 
-  const paginatorLeft = (
+  const paginatorRight = (
     <Button
       type="button"
       icon="pi pi-refresh"
@@ -44,7 +44,7 @@ const Screen1 = () => {
       
       <div className="d-flex my-4 justify-content-center ">
         <InputText
-          className="bg-black text-white"
+          className="bg-white text-black"
           placeholder="search name..."
           onInput={(e) =>
             setSearchTerm({
@@ -68,7 +68,7 @@ const Screen1 = () => {
           tableStyle={{ minWidth: "50rem" }}
           paginatorTemplate="RowsPerPageDropdown FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink"
           currentPageReportTemplate="{first} to {last} of {totalRecords}"
-          paginatorLeft={paginatorLeft}
+          paginatorRight={paginatorRight}
         >
           <Column
             field="id"
