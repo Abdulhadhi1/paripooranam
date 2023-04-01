@@ -5,6 +5,7 @@
   background-color: rgb(28, 63, 0);
   padding: 10px 80px;
   text-align: center;
+  
 }
 .navbars{
   display: flex;
@@ -18,10 +19,12 @@
 
   list-style: none;
 
+
 }
 .navbars li a{
   text-decoration: none;
   color: rgb(255, 166, 0);
+  font-size: 30px;
  
 }
 .navbars li a:hover{
