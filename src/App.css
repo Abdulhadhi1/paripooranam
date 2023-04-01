@@ -1,0 +1,82 @@
+.navbars{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(28, 63, 0);
+  padding: 10px 80px;
+  text-align: center;
+}
+.navbars{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbars li{
+  padding: 0 20px;
+  position: relative;
+
+  list-style: none;
+
+}
+.navbars li a{
+  text-decoration: none;
+  color: rgb(255, 166, 0);
+ 
+}
+.navbars li a:hover{
+  color: rgb(255, 255, 255);
+}
+.logo{
+  width: 100px;
+  position: relative;
+  bottom: 9px;
+ 
+}
+
+.cont{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cards{
+  background-color: rgb(238, 255, 249);
+  box-shadow: rgba(0, 0, 0, 0.068) 10px 1px 10px 1px ;
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+}
+h1{
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+ @media screen and (max-width: 760px){
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 80px;
+    text-align: center;
+    font-size: 15px; 
+  }
+  .navbars li{
+    padding: 0 20px;
+    position: relative;
+    list-style: none;
+  
+  } 
+  img{
+    width: 760px;
+      
+  }
+  .cards img{
+    width: 300px;
+  }
+ }
